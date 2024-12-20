@@ -1,4 +1,4 @@
-create Environment \n
+create Environment /n
 *install required Packages
 *start with N capture New faces
 *register with your name
