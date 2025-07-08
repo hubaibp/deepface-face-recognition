@@ -52,26 +52,3 @@ It captures student faces via webcam, encodes them using deep learning, and stor
 - ⚡ High speed and accuracy in recognition
 
 
-
-## ⚙️ How to Run Locally
-
-```bash
-# Clone the repository
-
-cd student-attendance-face
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate the environment (Windows)
-venv\Scripts\activate
-# On macOS/Linux:
-# source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-# Or manually:
-pip install django opencv-python deepface numpy scikit-learn joblib
-
-# Run the development server
-python manage.py runserver
